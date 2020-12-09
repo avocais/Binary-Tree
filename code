@@ -1,0 +1,13 @@
+class Node:
+
+    def __init__(this, data):
+        this.left = None
+        this.right = None
+        this.data = data
+
+    def PrintBinaryTree(this):
+        print(this.data)
+
+
+root = Node(10)
+root.PrintBinaryTree()
